@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_Reduction_vie",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"SC_Reduction_vie",
+  "parent":{
+    "name":"script_vie",
+    "path":"folders/Scripts/script_vie.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
