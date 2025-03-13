@@ -12,7 +12,7 @@ if(!(parentEnJeu == -4)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "parentEnJeu.x"
 	/// @DnDArgument : "expr_1" "parentEnJeu.y"
 	/// @DnDArgument : "expr_2" "parentEnJeu.image_xscale"
-	/// @DnDArgument : "expr_3" "parentEnJeu.image_xscale"
+	/// @DnDArgument : "expr_3" "parentEnJeu.image_yscale"
 	/// @DnDArgument : "var" "x"
 	/// @DnDArgument : "var_1" "y"
 	/// @DnDArgument : "var_2" "image_xscale"
@@ -20,4 +20,4 @@ if(!(parentEnJeu == -4)){	/// @DnDAction : YoYo Games.Common.Variable
 	x = parentEnJeu.x;
 	y = parentEnJeu.y;
 	image_xscale = parentEnJeu.image_xscale;
-	image_yscale = parentEnJeu.image_xscale;}
+	image_yscale = parentEnJeu.image_yscale;}

@@ -13,9 +13,9 @@ function Scr_creationObjetSurMiniMap(ObjetParent, SpriteObjet) {	/// @DnDActio
 	/// @DnDArgument : "var" "CreationObjetMM"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "O_SpriteObjetSurMiniMap"
-	/// @DnDArgument : "layer" ""minimaps""
+	/// @DnDArgument : "layer" ""miniMaps""
 	/// @DnDSaveInfo : "objectid" "O_SpriteObjetSurMiniMap"
-	var CreationObjetMM = instance_create_layer(0, 0, "minimaps", O_SpriteObjetSurMiniMap);
+	var CreationObjetMM = instance_create_layer(0, 0, "miniMaps", O_SpriteObjetSurMiniMap);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

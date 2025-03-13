@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"S_joueurMM",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":31,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"5673c544-939f-4815-bacc-8f787a674c3c","blendMode":0,"displayName":"default","isLocked":false,"name":"5673c544-939f-4815-bacc-8f787a674c3c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"MM_general",
+    "path":"folders/Sprites/MM/MM_general.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":64,
 }
