@@ -10,8 +10,8 @@
   "name":"O_MiniMap_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Manager",
-    "path":"folders/Objects/Manager.yy",
+    "name":"minimap",
+    "path":"folders/Objects/Manager/minimap.yy",
   },
   "parentObjectId":null,
   "persistent":false,

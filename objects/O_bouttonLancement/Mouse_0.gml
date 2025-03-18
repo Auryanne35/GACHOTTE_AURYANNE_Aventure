@@ -1,2 +1,2 @@
-room_set_persistent(Room1,true)
-room_goto(Room1)
+room_set_persistent(R_port,true)
+room_goto(R_port)

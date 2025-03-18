@@ -2,9 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 529BB90F
 /// @DnDComment : // Les actifs du script ont changé pour v2.3.0 Voir$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 pour plus d’informations
+/// @DnDInput : 2
 /// @DnDArgument : "funcName" "SC_Reduction_vie"
 /// @DnDArgument : "arg" "perte"
-function SC_Reduction_vie(perte) {	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDArgument : "arg_1" "temps_invincible"
+function SC_Reduction_vie(perte, temps_invincible) {	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A9FC55C
 	/// @DnDParent : 529BB90F
@@ -28,7 +30,8 @@ function SC_Reduction_vie(perte) {	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDHash : 1B3848E3
 		/// @DnDApplyTo : {O_Vie_Manager}
 		/// @DnDParent : 5A9FC55C
+		/// @DnDArgument : "steps" "temps_invincible"
 		with(O_Vie_Manager) {
-		alarm_set(0, 30);
+		alarm_set(0, temps_invincible);
 		
 		}}}
