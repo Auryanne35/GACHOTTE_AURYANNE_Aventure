@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_item",
+  "%Name":"O_piece",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_joueur","path":"objects/O_joueur/O_joueur.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_item",
+  "name":"O_piece",
   "overriddenProperties":[],
   "parent":{
     "name":"Collectible",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_coeur",
-    "path":"sprites/S_coeur/S_coeur.yy",
+    "name":"S_piece",
+    "path":"sprites/S_piece/S_piece.yy",
   },
   "spriteMaskId":null,
   "visible":true,

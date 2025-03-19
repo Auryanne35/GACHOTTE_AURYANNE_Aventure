@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_coin",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_joueur","path":"objects/O_joueur/O_joueur.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_manage_boutique",
+  "eventList":[],
   "managed":true,
-  "name":"O_coin",
+  "name":"O_manage_boutique",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Manager",
+    "path":"folders/Objects/Manager.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_piece",
-    "path":"sprites/S_piece/S_piece.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

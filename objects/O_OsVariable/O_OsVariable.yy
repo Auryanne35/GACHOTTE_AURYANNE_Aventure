@@ -5,8 +5,11 @@
   "managed":true,
   "name":"O_OsVariable",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"Y_Gui_Pos","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"nom","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Os",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"image","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resource":{"name":"S_os","path":"sprites/S_os/S_os.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_os",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"X_Gui_Pos","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"615",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"Scale_ecriture","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"Scale_image","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"X_gui_pos_image","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"580",},
   ],
   "parent":{
     "name":"Variable",

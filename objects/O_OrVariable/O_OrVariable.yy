@@ -5,8 +5,10 @@
   "managed":true,
   "name":"O_OrVariable",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"Y_Gui_Pos","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"nom","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"coin",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"X_Gui_Pos","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"435",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"image","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resource":{"name":"S_piece","path":"sprites/S_piece/S_piece.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_piece",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"Scale_ecriture","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_VariableParentManager","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"propertyId":{"name":"X_gui_pos_image","path":"objects/O_VariableParentManager/O_VariableParentManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"400",},
   ],
   "parent":{
     "name":"Variable",

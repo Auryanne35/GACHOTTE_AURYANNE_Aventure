@@ -8,8 +8,8 @@
   "name":"O_os",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collectible",
+    "path":"folders/Objects/Collectible.yy",
   },
   "parentObjectId":null,
   "persistent":false,

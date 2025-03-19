@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"O_item",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_joueur","path":"objects/O_joueur/O_joueur.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_bracelet_inventaire",
+  "eventList":[],
   "managed":true,
-  "name":"O_item",
+  "name":"O_bracelet_inventaire",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collectible",
-    "path":"folders/Objects/Collectible.yy",
+    "name":"inventaire",
+    "path":"folders/Objects/Manager/inventaire.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_manager_inventaire",
+    "path":"objects/O_manager_inventaire/O_manager_inventaire.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_coeur",
-    "path":"sprites/S_coeur/S_coeur.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

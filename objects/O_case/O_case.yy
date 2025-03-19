@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_item",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_joueur","path":"objects/O_joueur/O_joueur.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_case",
+  "eventList":[],
   "managed":true,
-  "name":"O_item",
+  "name":"O_case",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collectible",
-    "path":"folders/Objects/Collectible.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_coeur",
-    "path":"sprites/S_coeur/S_coeur.yy",
+    "name":"S_case",
+    "path":"sprites/S_case/S_case.yy",
   },
   "spriteMaskId":null,
   "visible":true,
