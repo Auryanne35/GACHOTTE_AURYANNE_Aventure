@@ -2,24 +2,24 @@
   "$GMSprite":"",
   "%Name":"S_tile_port_animation",
   "bboxMode":0,
-  "bbox_bottom":570,
+  "bbox_bottom":575,
   "bbox_left":71,
-  "bbox_right":439,
-  "bbox_top":9,
+  "bbox_right":767,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b537b94c-0f5d-4a54-8f96-569b7a6cd582","name":"b537b94c-0f5d-4a54-8f96-569b7a6cd582","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ba3a19f6-726d-4b85-83e0-19aebdef1e87","name":"ba3a19f6-726d-4b85-83e0-19aebdef1e87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":576,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"09c95407-3895-46fe-b6c3-f4a64564c115","blendMode":0,"displayName":"default","isLocked":false,"name":"09c95407-3895-46fe-b6c3-f4a64564c115","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"725b80f7-cb45-4f1b-8bc3-d5a58d3bd67f","blendMode":0,"displayName":"default","isLocked":false,"name":"725b80f7-cb45-4f1b-8bc3-d5a58d3bd67f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_tile_port_animation",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b537b94c-0f5d-4a54-8f96-569b7a6cd582","path":"sprites/S_tile_port_animation/S_tile_port_animation.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"390e06e5-974c-49f8-bf5f-8dd40e4655d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ba3a19f6-726d-4b85-83e0-19aebdef1e87","path":"sprites/S_tile_port_animation/S_tile_port_animation.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6de23e2e-88a3-48c0-ac4b-e48d96ce402d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":448,
+  "width":768,
 }

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_pics",
+  "%Name":"O_oursin",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_joueur","path":"objects/O_joueur/O_joueur.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_pics",
+  "name":"O_oursin",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_pics",
-    "path":"sprites/S_pics/S_pics.yy",
+    "name":"S_oursin",
+    "path":"sprites/S_oursin/S_oursin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

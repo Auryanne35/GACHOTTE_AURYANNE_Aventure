@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_poison",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"SC_poison",
+  "parent":{
+    "name":"script_vie",
+    "path":"folders/Scripts/script_vie.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

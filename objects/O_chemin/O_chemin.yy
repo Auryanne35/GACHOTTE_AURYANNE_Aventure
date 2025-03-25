@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_pics",
-    "path":"sprites/S_pics/S_pics.yy",
+    "name":"S_oursin",
+    "path":"sprites/S_oursin/S_oursin.yy",
   },
   "spriteMaskId":null,
   "visible":true,
