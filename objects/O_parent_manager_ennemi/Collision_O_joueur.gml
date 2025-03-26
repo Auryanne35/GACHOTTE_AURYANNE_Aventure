@@ -3,7 +3,7 @@
 /// @DnDHash : 790AC355
 /// @DnDInput : 2
 /// @DnDArgument : "script" "SC_Reduction_vie"
-/// @DnDArgument : "arg" "3"
-/// @DnDArgument : "arg_1" "90"
+/// @DnDArgument : "arg" "degats"
+/// @DnDArgument : "arg_1" "invincibilite"
 /// @DnDSaveInfo : "script" "SC_Reduction_vie"
-script_execute(SC_Reduction_vie, 3, 90);
+script_execute(SC_Reduction_vie, degats, invincibilite);

@@ -133,27 +133,3 @@ if(contenu == 3){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "2"
 	/// @DnDArgument : "var" "bracelet"
 	bracelet = 2;}
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 3F871FC2
-/// @DnDArgument : "msg" "collier"
-show_debug_message(string(collier));
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 63E10E3B
-/// @DnDArgument : "msg" "bracelet"
-show_debug_message(string(bracelet));
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 20F6F4CF
-/// @DnDArgument : "msg" "piece"
-show_debug_message(string(piece));
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 52CD75F5
-/// @DnDArgument : "msg" "rubis"
-show_debug_message(string(rubis));
