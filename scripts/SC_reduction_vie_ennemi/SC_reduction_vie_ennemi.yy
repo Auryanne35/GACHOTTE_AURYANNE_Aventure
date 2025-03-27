@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"SC_reduction_vie_ennemi",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"script_vie",
+    "path":"folders/Scripts/script_vie.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

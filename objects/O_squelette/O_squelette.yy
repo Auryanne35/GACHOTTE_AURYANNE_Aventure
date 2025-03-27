@@ -13,15 +13,11 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"ennemi_haut","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resource":{"name":"S_squelette","path":"sprites/S_squelette/S_squelette.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_squelette",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"ennemi_bas","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resource":{"name":"S_squelette","path":"sprites/S_squelette/S_squelette.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_squelette",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resource":{"name":"S_squelette","path":"sprites/S_squelette/S_squelette.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_squelette",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_attaque","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"64",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_attaque_large","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"128",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_detection","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"384",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_detection_large","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"448",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"degats","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ennemis",
+    "path":"folders/Objects/ennemis.yy",
   },
   "parentObjectId":{
     "name":"O_parent_manager_ennemi",
