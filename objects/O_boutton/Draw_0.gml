@@ -21,8 +21,12 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 6165D9FF
+/// @DnDArgument : "x" "image_xscale*32"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "image_yscale*32"
+/// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" "texte"
-draw_text(0, 0, string(texte) + "");
+draw_text(x + image_xscale*32, y + image_yscale*32, string(texte) + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

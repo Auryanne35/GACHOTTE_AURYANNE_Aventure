@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_quitter",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"SC_quitter",
+  "parent":{
+    "name":"menu",
+    "path":"folders/Scripts/menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
