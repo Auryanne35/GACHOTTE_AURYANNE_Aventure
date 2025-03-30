@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_interraction_joueur",
+  "%Name":"O_pistolet",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_joueur","path":"objects/O_joueur/O_joueur.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_interraction_joueur",
+  "name":"O_pistolet",
   "overriddenProperties":[],
   "parent":{
-    "name":"joueur",
-    "path":"folders/Objects/joueur.yy",
+    "name":"Collectible",
+    "path":"folders/Objects/Collectible.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_interraction_joueur",
-    "path":"sprites/S_interraction_joueur/S_interraction_joueur.yy",
+    "name":"S_pistolet",
+    "path":"sprites/S_pistolet/S_pistolet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -13,10 +13,4 @@ function SC_Ajout_vie(soin, manager) {	/// @DnDAction : YoYo Games.Common.Vari
 	/// @DnDArgument : "expr" "soin"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "manager.vie_joueur"
-	manager.vie_joueur += soin;
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 66218B6C
-	/// @DnDParent : 098ED2C1
-	instance_destroy();}
+	manager.vie_joueur += soin;}

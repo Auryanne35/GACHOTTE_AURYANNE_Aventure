@@ -22,8 +22,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_detection_large","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"448",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ennemis",
+    "path":"folders/Objects/ennemis.yy",
   },
   "parentObjectId":{
     "name":"O_parent_manager_ennemi",

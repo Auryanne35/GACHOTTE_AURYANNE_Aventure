@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_manager_interraction_joueur",
+  "%Name":"O_manager_attaque",
   "eventList":[],
   "managed":true,
-  "name":"O_manager_interraction_joueur",
+  "name":"O_manager_attaque",
   "overriddenProperties":[],
   "parent":{
     "name":"joueur",
@@ -23,7 +23,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"degats","filters":[],"listItems":[],"multiselect":false,"name":"degats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"temps_recharge","filters":[],"listItems":[],"multiselect":false,"name":"temps_recharge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_combat_manager",
-  "eventList":[],
+  "%Name":"O_manager_sprite_joueur",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_combat_manager",
+  "name":"O_manager_sprite_joueur",
   "overriddenProperties":[],
   "parent":{
-    "name":"Manager",
-    "path":"folders/Objects/Manager.yy",
+    "name":"joueur",
+    "path":"folders/Objects/Manager/joueur.yy",
   },
   "parentObjectId":null,
   "persistent":false,

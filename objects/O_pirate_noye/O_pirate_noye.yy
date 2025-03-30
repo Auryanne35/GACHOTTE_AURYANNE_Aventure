@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"O_pirate_noye",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_pirate_noye",
   "overriddenProperties":[

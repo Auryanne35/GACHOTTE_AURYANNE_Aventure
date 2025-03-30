@@ -12,8 +12,8 @@
   "name":"O_Vie_Manager_joueur",
   "overriddenProperties":[],
   "parent":{
-    "name":"vie",
-    "path":"folders/Objects/Manager/vie.yy",
+    "name":"joueur",
+    "path":"folders/Objects/Manager/joueur.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"invincible","filters":[],"listItems":[],"multiselect":false,"name":"invincible","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"vie_joueur","filters":[],"listItems":[],"multiselect":false,"name":"vie_joueur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"vie_joueur","filters":[],"listItems":[],"multiselect":false,"name":"vie_joueur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"18","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"poison","filters":[],"listItems":[],"multiselect":false,"name":"poison","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"compteur","filters":[],"listItems":[],"multiselect":false,"name":"compteur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"max_compteur","filters":[],"listItems":[],"multiselect":false,"name":"max_compteur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
