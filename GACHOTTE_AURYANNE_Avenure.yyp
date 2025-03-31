@@ -20,8 +20,8 @@
     {"$GMFolder":"","%Name":"inventaire_objet","folderPath":"folders/Objects/inventaire_objet.yy","name":"inventaire_objet","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"joueur","folderPath":"folders/Objects/joueur.yy","name":"joueur","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Manager","folderPath":"folders/Objects/Manager.yy","name":"Manager","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"joueur","folderPath":"folders/Objects/Manager/joueur.yy","name":"joueur","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"inventaire","folderPath":"folders/Objects/Manager/inventaire.yy","name":"inventaire","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"joueur","folderPath":"folders/Objects/Manager/joueur.yy","name":"joueur","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"minimap","folderPath":"folders/Objects/Manager/minimap.yy","name":"minimap","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Variable","folderPath":"folders/Objects/Manager/Variable.yy","name":"Variable","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -49,7 +49,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"GACHOTTE_AURYANNE_Avenure",
   "resources":[

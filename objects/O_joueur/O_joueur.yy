@@ -41,8 +41,6 @@
     {"$GMObjectProperty":"v1","%Name":"changementDeplacement","filters":[],"listItems":[],"multiselect":false,"name":"changementDeplacement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"interractionX","filters":[],"listItems":[],"multiselect":false,"name":"interractionX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"interractionY","filters":[],"listItems":[],"multiselect":false,"name":"interractionY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"degats","filters":[],"listItems":[],"multiselect":false,"name":"degats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"temps_recharge","filters":[],"listItems":[],"multiselect":false,"name":"temps_recharge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
