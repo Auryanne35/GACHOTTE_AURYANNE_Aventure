@@ -77,6 +77,7 @@
     {"name":"inst_1B4D6C53","path":"rooms/R_port/R_port.yy",},
     {"name":"inst_783BE8F5","path":"rooms/R_port/R_port.yy",},
     {"name":"inst_79D9506E","path":"rooms/R_port/R_port.yy",},
+    {"name":"inst_5EE2ACEF","path":"rooms/R_port/R_port.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -163,6 +164,7 @@
         {"$GMRInstance":"v1","%Name":"inst_30121D5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30121D5A","objectId":{"name":"O_manager_barre","path":"objects/O_manager_barre/O_manager_barre.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_783BE8F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_783BE8F5","objectId":{"name":"O_manager_sprite_joueur","path":"objects/O_manager_sprite_joueur/O_manager_sprite_joueur.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_79D9506E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79D9506E","objectId":{"name":"O_manager_attaque","path":"objects/O_manager_attaque/O_manager_attaque.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5EE2ACEF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EE2ACEF","objectId":{"name":"O_manage_boutique","path":"objects/O_manage_boutique/O_manage_boutique.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":32.0,},
       ],"layers":[],"name":"manager","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":33,"SerialiseWidth":60,"TileCompressedData":[
           -257,-2147483648,2,1,2,-22,-2147483648,1,24,-7,34,-28,-2147483648,2,12,13,-4,-2147483648,4,50,51,52,

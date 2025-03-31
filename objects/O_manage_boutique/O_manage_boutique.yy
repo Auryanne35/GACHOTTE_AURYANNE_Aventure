@@ -2,7 +2,9 @@
   "$GMObject":"",
   "%Name":"O_manage_boutique",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_manage_boutique",
@@ -26,7 +28,15 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"marchandises","filters":[],"listItems":[],"multiselect":false,"name":"marchandises","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"marchandises","filters":[],"listItems":[
+        "S_coconut",
+        "S_epee",
+        "S_os",
+      ],"multiselect":true,"name":"marchandises","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_coconut, S_epee, S_os","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"placementX","filters":[],"listItems":[],"multiselect":false,"name":"placementX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"896","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"placementY","filters":[],"listItems":[],"multiselect":false,"name":"placementY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"476","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"placementX_max","filters":[],"listItems":[],"multiselect":false,"name":"placementX_max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1024","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"placementY_max","filters":[],"listItems":[],"multiselect":false,"name":"placementY_max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"604","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
