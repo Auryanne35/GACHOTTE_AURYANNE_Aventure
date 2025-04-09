@@ -20,9 +20,9 @@ function SC_Reduction_vie(perte, temps_invincible) {	/// @DnDAction : YoYo Gam
 		/// @DnDArgument : "expr" "-perte"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
-		/// @DnDArgument : "var" "O_Vie_Manager_joueur.vie_joueur"
+		/// @DnDArgument : "var" "global.vie_joueur"
 		/// @DnDArgument : "var_1" "O_Vie_Manager_joueur.invincible"
-		O_Vie_Manager_joueur.vie_joueur += -perte;
+		global.vie_joueur += -perte;
 		O_Vie_Manager_joueur.invincible = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm

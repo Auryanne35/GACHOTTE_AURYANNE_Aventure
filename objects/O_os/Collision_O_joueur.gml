@@ -4,6 +4,6 @@
 /// @DnDInput : 2
 /// @DnDArgument : "script" "SC_ajout_valeur"
 /// @DnDArgument : "arg" "2"
-/// @DnDArgument : "arg_1" "O_OsVariable"
+/// @DnDArgument : "arg_1" "global.os_obtenu"
 /// @DnDSaveInfo : "script" "SC_ajout_valeur"
-script_execute(SC_ajout_valeur, 2, O_OsVariable);
+script_execute(SC_ajout_valeur, 2, global.os_obtenu);

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"joueur",
-    "path":"folders/Sprites/joueur.yy",
+    "name":"sprite_inventaire",
+    "path":"folders/Sprites/sprite_inventaire.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

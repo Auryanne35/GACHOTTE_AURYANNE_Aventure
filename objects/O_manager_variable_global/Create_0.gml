@@ -1,0 +1,11 @@
+global.or_collecte = 0;
+global.os_collecte = 0;
+global.collier_collecte = 0;
+global.bracelet_collecte = 0;
+global.rubis_collecte = 0;
+global.noix_coco_collectee = 0;
+global.bananne_collectee = 0;
+global.oeuil_kraken_collecte = 0;
+global.epee_collectee = false;
+global.pistolet_collecte =false;
+global.vie_joueur = 5;

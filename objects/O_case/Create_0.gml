@@ -1,0 +1,1 @@
+ds_list_add(O_manager_inventaire.case_inventaire,self)

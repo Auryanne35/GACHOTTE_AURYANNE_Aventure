@@ -3,8 +3,8 @@
 /// @DnDHash : 2C9C580E
 /// @DnDArgument : "expr" "-1"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "vie_joueur"
-vie_joueur += -1;
+/// @DnDArgument : "var" "global.vie_joueur"
+global.vie_joueur += -1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
