@@ -8,4 +8,4 @@ global.bananne_collectee = 0;
 global.oeuil_kraken_collecte = 0;
 global.epee_collectee = false;
 global.pistolet_collecte =false;
-global.vie_joueur = 5;
+global.vie_joueur = 15;

@@ -16,8 +16,8 @@ draw_sprite_ext(image, 0, X_gui_pos_image, Y_gui_pos_image, Scale_image, Scale_i
 /// @DnDArgument : "xscale" "Scale_ecriture"
 /// @DnDArgument : "yscale" "Scale_ecriture"
 /// @DnDArgument : "caption" "nom"
-/// @DnDArgument : "text" "global.or_obtenu"
-draw_text_transformed(X_Gui_Pos, Y_Gui_Pos, string(nom) + string(global.or_obtenu), Scale_ecriture, Scale_ecriture, 0);
+/// @DnDArgument : "text" "global.or_collecte"
+draw_text_transformed(X_Gui_Pos, Y_Gui_Pos, string(nom) + string(global.or_collecte), Scale_ecriture, Scale_ecriture, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1

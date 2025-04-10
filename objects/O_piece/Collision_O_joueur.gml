@@ -1,9 +1,12 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 7030F7A2
-/// @DnDInput : 2
-/// @DnDArgument : "script" "SC_ajout_valeur"
-/// @DnDArgument : "arg" "1"
-/// @DnDArgument : "arg_1" "global.or_obtenu"
-/// @DnDSaveInfo : "script" "SC_ajout_valeur"
-script_execute(SC_ajout_valeur, 1, global.or_obtenu);
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 276AFDF5
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "global.or_collecte"
+global.or_collecte += 1;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 0DFB2E1B
+instance_destroy();

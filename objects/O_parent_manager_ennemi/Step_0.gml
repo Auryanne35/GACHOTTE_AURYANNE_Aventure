@@ -88,6 +88,7 @@ if (detection){
 		}
 	}
 }
-if (vie <= 0){
+if (vie <= 0 and vie > -5){
+	instance_create_layer(x,y,"collectibles",butin)
 	instance_destroy();
 }

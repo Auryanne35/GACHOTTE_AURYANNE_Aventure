@@ -8,8 +8,8 @@
   "name":"O_interraction_ennemi",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ennemis",
+    "path":"folders/Objects/ennemis.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -3,6 +3,8 @@
   "%Name":"O_manager_touche",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":71,"eventType":5,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_manager_touche",
@@ -27,6 +29,10 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"ouverture_inventaire","filters":[],"listItems":[],"multiselect":false,"name":"ouverture_inventaire","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"x_depart","filters":[],"listItems":[],"multiselect":false,"name":"x_depart","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"640","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"x_fin","filters":[],"listItems":[],"multiselect":false,"name":"x_fin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1152","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"y_depart","filters":[],"listItems":[],"multiselect":false,"name":"y_depart","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"650","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"y_fin","filters":[],"listItems":[],"multiselect":false,"name":"y_fin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"778","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

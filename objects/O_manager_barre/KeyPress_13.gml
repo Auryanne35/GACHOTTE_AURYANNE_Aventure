@@ -7,8 +7,8 @@ if(case_barre == 1){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Mess
 	/// @DnDVersion : 1
 	/// @DnDHash : 3AEA7DE3
 	/// @DnDParent : 2BCA6682
-	/// @DnDArgument : "msg" ""changer sprite pour joeur avec épée""
-	show_debug_message(string("changer sprite pour joeur avec épée"));}
+	/// @DnDArgument : "msg" ""changer sprite pour joueur avec épée""
+	show_debug_message(string("changer sprite pour joueur avec épée"));}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -40,8 +40,8 @@ if(case_barre == 3){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDParent : 162CC387
 		/// @DnDArgument : "expr" "-1"
 		/// @DnDArgument : "expr_relative" "1"
-		/// @DnDArgument : "var" "noix_coco_recuperee"
-		noix_coco_recuperee += -1;
+		/// @DnDArgument : "var" "global.noix_coco_collectee"
+		global.noix_coco_collectee += -1;
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
@@ -51,3 +51,33 @@ if(case_barre == 3){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDArgument : "arg" "1"
 		/// @DnDSaveInfo : "script" "SC_Ajout_vie"
 		script_execute(SC_Ajout_vie, 1);}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 42E899D1
+/// @DnDArgument : "var" "case_barre"
+/// @DnDArgument : "value" "4"
+if(case_barre == 4){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5B3BB8CE
+	/// @DnDParent : 42E899D1
+	/// @DnDArgument : "var" "global.vie_joueur"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "20"
+	if(global.vie_joueur < 20){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 49AA37DE
+		/// @DnDParent : 5B3BB8CE
+		/// @DnDArgument : "expr" "-1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "global.bananne_collectee"
+		global.bananne_collectee += -1;
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 7AB804BA
+		/// @DnDParent : 5B3BB8CE
+		/// @DnDArgument : "script" "SC_Ajout_vie"
+		/// @DnDArgument : "arg" "3"
+		/// @DnDSaveInfo : "script" "SC_Ajout_vie"
+		script_execute(SC_Ajout_vie, 3);}}

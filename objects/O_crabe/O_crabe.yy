@@ -20,6 +20,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_attaque_large","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"128",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_detection","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"384",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"distance_detection_large","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"448",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_parent_manager_ennemi","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"propertyId":{"name":"butin","path":"objects/O_parent_manager_ennemi/O_parent_manager_ennemi.yy",},"resource":{"name":"O_os","path":"objects/O_os/O_os.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_os",},
   ],
   "parent":{
     "name":"ennemis",
