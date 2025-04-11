@@ -17,33 +17,33 @@ if(O_manager_touche.ouverture_inventaire == true){	/// @DnDAction : YoYo Games
 	/// @DnDVersion : 1
 	/// @DnDHash : 4159AED7
 	/// @DnDParent : 541DB201
-	/// @DnDArgument : "code" "if (global.epee_collectee == true)$(13_10){$(13_10)	draw_sprite(S_epee,0,656,666);$(13_10)}$(13_10)if (global.pistolet_collecte == true)$(13_10){$(13_10)	draw_sprite(S_pistolet,0,784,666);$(13_10)}$(13_10)if (global.noix_coco_collectee > 0)$(13_10){$(13_10)	draw_sprite(S_coconut,0,912,666);$(13_10)	draw_text_transformed(1014,768,global.noix_coco_collectee,2,2,0);$(13_10)}$(13_10)if (global.bananne_collectee > 0)$(13_10){$(13_10)	draw_sprite(S_oursin,0,1040,666);$(13_10)	draw_text_transformed(1142,768,global.bananne_collectee,2,2,0);$(13_10)}$(13_10)if (global.or_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_piece,0,1168,666);$(13_10)	draw_text_transformed(1270,768,global.or_collecte,2,2,0);$(13_10)}$(13_10)if (global.os_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_os,0,656,794);$(13_10)	draw_text_transformed(758,896,global.os_collecte,2,2,0);$(13_10)}$(13_10)if (global.collier_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_collier,0,784,794);$(13_10)	draw_text_transformed(886,896,global.collier_collecte,2,2,0);$(13_10)}$(13_10)if (global.rubis_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_rubis,0,912,794);$(13_10)	draw_text_transformed(1014,896,global.rubis_collecte,2,2,0);$(13_10)}$(13_10)if (global.bracelet_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_bracelet,0,1040,794);$(13_10)	draw_text_transformed(1142,896,global.bracelet_collecte,2,2,0);$(13_10)}$(13_10)if (global.oeuil_kraken_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_oursin,0,1168,794);$(13_10)	draw_text_transformed(1270,896,global.oeuil_kraken_collecte,2,2,0);$(13_10)}"
+	/// @DnDArgument : "code" "if (global.epee_collectee == true)$(13_10){$(13_10)	draw_sprite(sprite_epee_i,0,656,666);$(13_10)}$(13_10)if (global.pistolet_collecte == true)$(13_10){$(13_10)	draw_sprite(sprite_pistolet_i,0,784,666);$(13_10)}$(13_10)if (global.noix_coco_collectee > 0)$(13_10){$(13_10)	draw_sprite(S_coconut,0,912,666);$(13_10)	draw_text_transformed(1014,768,global.noix_coco_collectee,2,2,0);$(13_10)}$(13_10)if (global.banane_collectee > 0)$(13_10){$(13_10)	draw_sprite(S_oursin,0,1040,666);$(13_10)	draw_text_transformed(1142,768,global.banane_collectee,2,2,0);$(13_10)}$(13_10)if (global.or_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_piece_inventaire,0,1168,666);$(13_10)	draw_text_transformed(1270,768,global.or_collecte,2,2,0);$(13_10)}$(13_10)if (global.os_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_os_inventaire,0,656,794);$(13_10)	draw_text_transformed(758,896,global.os_collecte,2,2,0);$(13_10)}$(13_10)if (global.collier_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_collier,0,784,794);$(13_10)	draw_text_transformed(886,896,global.collier_collecte,2,2,0);$(13_10)}$(13_10)if (global.rubis_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_rubis,0,912,794);$(13_10)	draw_text_transformed(1014,896,global.rubis_collecte,2,2,0);$(13_10)}$(13_10)if (global.bracelet_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_bracelet,0,1040,794);$(13_10)	draw_text_transformed(1142,896,global.bracelet_collecte,2,2,0);$(13_10)}$(13_10)if (global.oeuil_kraken_collecte > 0)$(13_10){$(13_10)	draw_sprite(S_oursin,0,1168,794);$(13_10)	draw_text_transformed(1270,896,global.oeuil_kraken_collecte,2,2,0);$(13_10)}"
 	if (global.epee_collectee == true)
 	{
-		draw_sprite(S_epee,0,656,666);
+		draw_sprite(sprite_epee_i,0,656,666);
 	}
 	if (global.pistolet_collecte == true)
 	{
-		draw_sprite(S_pistolet,0,784,666);
+		draw_sprite(sprite_pistolet_i,0,784,666);
 	}
 	if (global.noix_coco_collectee > 0)
 	{
 		draw_sprite(S_coconut,0,912,666);
 		draw_text_transformed(1014,768,global.noix_coco_collectee,2,2,0);
 	}
-	if (global.bananne_collectee > 0)
+	if (global.banane_collectee > 0)
 	{
 		draw_sprite(S_oursin,0,1040,666);
-		draw_text_transformed(1142,768,global.bananne_collectee,2,2,0);
+		draw_text_transformed(1142,768,global.banane_collectee,2,2,0);
 	}
 	if (global.or_collecte > 0)
 	{
-		draw_sprite(S_piece,0,1168,666);
+		draw_sprite(S_piece_inventaire,0,1168,666);
 		draw_text_transformed(1270,768,global.or_collecte,2,2,0);
 	}
 	if (global.os_collecte > 0)
 	{
-		draw_sprite(S_os,0,656,794);
+		draw_sprite(S_os_inventaire,0,656,794);
 		draw_text_transformed(758,896,global.os_collecte,2,2,0);
 	}
 	if (global.collier_collecte > 0)

@@ -8,8 +8,8 @@
   "name":"O_OrVariable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Variable",
-    "path":"folders/Objects/Manager/Variable.yy",
+    "name":"joueur",
+    "path":"folders/Objects/Manager/joueur.yy",
   },
   "parentObjectId":null,
   "persistent":false,

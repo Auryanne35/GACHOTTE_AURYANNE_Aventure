@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_os",
-    "path":"sprites/S_os/S_os.yy",
+    "name":"S_tas_os",
+    "path":"sprites/S_tas_os/S_tas_os.yy",
   },
   "spriteMaskId":null,
   "visible":true,

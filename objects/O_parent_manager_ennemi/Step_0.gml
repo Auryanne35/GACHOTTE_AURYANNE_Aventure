@@ -8,6 +8,8 @@ var attaque_possible_haut = collision_rectangle(x,y-distance_attaque,x+distance_
 var attaque_possible_bas = collision_rectangle(x,y-distance_attaque,x+distance_attaque,y-distance_detection_large,[O_joueur],0,0)
 var distance = point_distance(x,y,O_joueur.x,O_joueur.y)
 var collision = collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
+show_debug_message("x : " + string(x))
+show_debug_message("y : " + string(y))
 if (detection){
 	// Déplacement
 	if (not attaque_possible_droite and not attaque_possible_bas and not attaque_possible_gauche and not attaque_possible_haut){
@@ -89,6 +91,7 @@ if (detection){
 	}
 }
 if (vie <= 0 and vie > -5){
-	instance_create_layer(x,y,"collectibles",butin)
+	instance_create_layer(x,y,"collectibles",butin);
+	//generateur.nombre -= 1;
 	instance_destroy();
 }

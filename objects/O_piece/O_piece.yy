@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_piece",
-    "path":"sprites/S_piece/S_piece.yy",
+    "name":"S_tas_pieces",
+    "path":"sprites/S_tas_pieces/S_tas_pieces.yy",
   },
   "spriteMaskId":null,
   "visible":true,

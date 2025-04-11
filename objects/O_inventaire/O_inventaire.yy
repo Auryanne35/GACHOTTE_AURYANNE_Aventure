@@ -40,6 +40,8 @@
     {"$GMObjectProperty":"v1","%Name":"y_fin","filters":[],"listItems":[],"multiselect":false,"name":"y_fin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"778","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"x_selecteur","filters":[],"listItems":[],"multiselect":false,"name":"x_selecteur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"x_depart","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"y_selecteur","filters":[],"listItems":[],"multiselect":false,"name":"y_selecteur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"y_depart","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_epee_i","filters":[],"listItems":[],"multiselect":false,"name":"sprite_epee_i","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_pistolet_i","filters":[],"listItems":[],"multiselect":false,"name":"sprite_pistolet_i","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

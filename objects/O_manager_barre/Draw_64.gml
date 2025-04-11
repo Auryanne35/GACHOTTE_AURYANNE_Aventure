@@ -19,9 +19,8 @@ if(global.epee_collectee == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sp
 	/// @DnDParent : 4C13AA49
 	/// @DnDArgument : "x" "864"
 	/// @DnDArgument : "y" "1016"
-	/// @DnDArgument : "sprite" "S_epee"
-	/// @DnDSaveInfo : "sprite" "S_epee"
-	draw_sprite(S_epee, 0, 864, 1016);}
+	/// @DnDArgument : "sprite" "sprite_epee"
+	draw_sprite(sprite_epee, 0, 864, 1016);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -34,9 +33,8 @@ if(global.pistolet_collecte == true){	/// @DnDAction : YoYo Games.Drawing.Draw
 	/// @DnDParent : 2C4E0DA3
 	/// @DnDArgument : "x" "928"
 	/// @DnDArgument : "y" "1016"
-	/// @DnDArgument : "sprite" "S_pistolet"
-	/// @DnDSaveInfo : "sprite" "S_pistolet"
-	draw_sprite(S_pistolet, 0, 928, 1016);}
+	/// @DnDArgument : "sprite" "sprite_pistolet"
+	draw_sprite(sprite_pistolet, 0, 928, 1016);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
