@@ -28,6 +28,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"degats","filters":[],"listItems":[],"multiselect":false,"name":"degats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"temps_recharge","filters":[],"listItems":[],"multiselect":false,"name":"temps_recharge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"attaque_joueur_temps","filters":[],"listItems":[],"multiselect":false,"name":"attaque_joueur_temps","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

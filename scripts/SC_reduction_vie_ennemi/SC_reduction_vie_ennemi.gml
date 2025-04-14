@@ -15,15 +15,18 @@ function SC_reduction_vie_ennemi(perte, temps_tranquille) {	/// @DnDAction : Y
 	if(O_parent_manager_ennemi.invincibilite_ennemi == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2444692F
-		/// @DnDInput : 2
+		/// @DnDInput : 3
 		/// @DnDParent : 0BB5C080
 		/// @DnDArgument : "expr" "-perte"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
+		/// @DnDArgument : "expr_2" "true"
 		/// @DnDArgument : "var" "vie"
 		/// @DnDArgument : "var_1" "invincibilite_ennemi"
+		/// @DnDArgument : "var_2" "O_manager_attaque.attaque_joueur_temps"
 		vie += -perte;
 		invincibilite_ennemi = true;
+		O_manager_attaque.attaque_joueur_temps = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

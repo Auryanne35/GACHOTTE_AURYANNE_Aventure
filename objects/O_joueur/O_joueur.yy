@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_joueur",
-    "path":"sprites/S_joueur/S_joueur.yy",
+    "name":"S_idle_bas",
+    "path":"sprites/S_idle_bas/S_idle_bas.yy",
   },
   "spriteMaskId":null,
   "visible":true,
