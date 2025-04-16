@@ -54,11 +54,3 @@ if (global.amelioration_pistolet == 2)
 	}
 	O_inventaire.sprite_pistolet_i = S_pistolet_inventaire_A2;
 }
-if (global.amelioration_pistolet == 3)
-{
-	if (O_manager_touche.ouverture_inventaire == false)
-	{
-		O_manager_barre.sprite_pistolet = S_pistolet_barre_A3;
-	}
-	O_inventaire.sprite_pistolet_i = S_pistolet_inventaire_A3;
-}

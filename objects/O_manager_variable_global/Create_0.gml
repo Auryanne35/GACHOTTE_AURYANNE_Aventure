@@ -12,3 +12,4 @@ global.vie_joueur = 15;
 global.carte = false;
 global.amelioration_pistolet = 0;
 global.amelioration_epee = 0;
+global.carte_achete = false;

@@ -58,7 +58,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_indicateur_barre",
+    "path":"sprites/S_indicateur_barre/S_indicateur_barre.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

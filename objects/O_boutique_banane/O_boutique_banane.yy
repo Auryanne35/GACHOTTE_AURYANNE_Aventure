@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_boutique_carte",
-    "path":"sprites/S_boutique_carte/S_boutique_carte.yy",
+    "name":"S_boutique_banane",
+    "path":"sprites/S_boutique_banane/S_boutique_banane.yy",
   },
   "spriteMaskId":null,
   "visible":true,

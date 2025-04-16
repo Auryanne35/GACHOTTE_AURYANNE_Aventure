@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 62304CEB
 /// @DnDArgument : "var" "global.or_collecte"
-/// @DnDArgument : "op" "2"
-if(global.or_collecte > 0){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "5"
+if(global.or_collecte >= 5){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 40E3DBD7
 	/// @DnDInput : 2

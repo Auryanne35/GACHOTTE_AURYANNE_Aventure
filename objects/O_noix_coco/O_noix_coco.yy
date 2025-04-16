@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_coconut",
-    "path":"sprites/S_coconut/S_coconut.yy",
+    "name":"S_coco",
+    "path":"sprites/S_coco/S_coco.yy",
   },
   "spriteMaskId":null,
   "visible":true,

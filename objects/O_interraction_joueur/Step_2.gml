@@ -36,9 +36,9 @@ if(O_manager_barre.case_barre == 2){	/// @DnDAction : YoYo Games.Common.Variab
 		/// @DnDVersion : 1
 		/// @DnDHash : 144428A5
 		/// @DnDParent : 7F0FBAD2
-		/// @DnDArgument : "var" "O_manager_barre.pistolet_recupere"
+		/// @DnDArgument : "var" "O_manager_barre.pistolet_equipe"
 		/// @DnDArgument : "value" "true"
-		if(O_manager_barre.pistolet_recupere == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+		if(O_manager_barre.pistolet_equipe == true){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 73862CA8
 			/// @DnDParent : 144428A5

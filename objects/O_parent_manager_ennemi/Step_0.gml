@@ -7,9 +7,7 @@ var attaque_possible_droite = collision_rectangle(x+distance_attaque,y,x+distanc
 var attaque_possible_haut = collision_rectangle(x,y-distance_attaque,x+distance_attaque,y,[O_joueur],0,0)
 var attaque_possible_bas = collision_rectangle(x,y-distance_attaque,x+distance_attaque,y-distance_detection_large,[O_joueur],0,0)
 var distance = point_distance(x,y,O_joueur.x,O_joueur.y)
-var collision = collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
-show_debug_message("x : " + string(x))
-show_debug_message("y : " + string(y))
+var collision = collision_rectangle(x,y,x+sprite_get_width(self.sprite_index),y+sprite_get_height(self.sprite_index),O_interraction_joueur,0,0); //collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
 if (detection){
 	// Déplacement
 	if (not attaque_possible_droite and not attaque_possible_bas and not attaque_possible_gauche and not attaque_possible_haut){

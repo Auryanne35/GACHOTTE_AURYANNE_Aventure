@@ -3,6 +3,7 @@
   "%Name":"O_boutique_amelioration_pistolet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_boutique_amelioration_pistolet",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_boutique_pistolet",
-    "path":"sprites/S_boutique_pistolet/S_boutique_pistolet.yy",
+    "name":"S_boutique_vide",
+    "path":"sprites/S_boutique_vide/S_boutique_vide.yy",
   },
   "spriteMaskId":null,
   "visible":true,
