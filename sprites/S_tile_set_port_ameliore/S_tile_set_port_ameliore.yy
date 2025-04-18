@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":447,
   "bbox_left":0,
-  "bbox_right":1279,
+  "bbox_right":1023,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c419524a-b912-48ce-9fca-0e3b3012565e","name":"c419524a-b912-48ce-9fca-0e3b3012565e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7705e8df-e398-4577-b6d9-9b6250b7df31","name":"7705e8df-e398-4577-b6d9-9b6250b7df31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":448,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f8b926cb-09d2-40dd-9c63-ecf68457e704","blendMode":0,"displayName":"default","isLocked":false,"name":"f8b926cb-09d2-40dd-9c63-ecf68457e704","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ec02c971-1f77-4680-b559-30e2ac932cf1","blendMode":0,"displayName":"default","isLocked":false,"name":"ec02c971-1f77-4680-b559-30e2ac932cf1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_tile_set_port_ameliore",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c419524a-b912-48ce-9fca-0e3b3012565e","path":"sprites/S_tile_set_port_ameliore/S_tile_set_port_ameliore.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"04bb234e-887e-4977-970d-6c6ceff9fefb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7705e8df-e398-4577-b6d9-9b6250b7df31","path":"sprites/S_tile_set_port_ameliore/S_tile_set_port_ameliore.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"25a9a84e-3f28-4c09-b506-809da346f8a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
