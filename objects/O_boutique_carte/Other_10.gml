@@ -9,8 +9,8 @@ if(global.or_collecte >= 150){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 3315B2F6
 	/// @DnDParent : 25D8369A
 	/// @DnDArgument : "expr" "true"
-	/// @DnDArgument : "var" "global.carte"
-	global.carte = true;
+	/// @DnDArgument : "var" "global.carte_achete"
+	global.carte_achete = true;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
