@@ -6,6 +6,7 @@ if(collision){
 			alarm[0] = 180;
 			en_charge = true;
 			O_manager_projectile.boulet -= 1;
+			image_speed = 0.4;
 		}
 	}
 }

@@ -30,8 +30,8 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"boutiques","folderPath":"folders/Rooms/boutiques.yy","name":"boutiques","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ecrans_particuliers","folderPath":"folders/Rooms/ecrans_particuliers.yy","name":"ecrans_particuliers","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"pieces_particulieres","folderPath":"folders/Rooms/pieces_particulieres.yy","name":"pieces_particulieres","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"iles","folderPath":"folders/Rooms/iles.yy","name":"iles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"pieces_particulieres","folderPath":"folders/Rooms/pieces_particulieres.yy","name":"pieces_particulieres","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/Scripts/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script_vie","folderPath":"folders/Scripts/script_vie.yy","name":"script_vie","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -74,7 +74,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"GACHOTTE_AURYANNE_Avenure",
   "resources":[
