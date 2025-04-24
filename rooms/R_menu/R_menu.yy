@@ -30,8 +30,8 @@
   ],
   "name":"R_menu",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"ecrans_particuliers",
+    "path":"folders/Rooms/ecrans_particuliers.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

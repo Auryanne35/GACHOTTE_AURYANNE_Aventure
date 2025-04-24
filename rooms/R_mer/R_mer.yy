@@ -65,8 +65,8 @@
   ],
   "name":"R_mer",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"pieces_particulieres",
+    "path":"folders/Rooms/pieces_particulieres.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

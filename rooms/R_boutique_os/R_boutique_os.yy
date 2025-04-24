@@ -73,8 +73,8 @@
   ],
   "name":"R_boutique_os",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"boutiques",
+    "path":"folders/Rooms/boutiques.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

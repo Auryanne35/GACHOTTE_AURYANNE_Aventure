@@ -9,7 +9,6 @@ global.oeuil_kraken_collecte = 0;
 global.epee_collectee = false;
 global.pistolet_collecte =false;
 global.vie_joueur = 15;
-global.carte = false;
 global.amelioration_pistolet = 0;
 global.amelioration_epee = 0;
 global.carte_achete = false;

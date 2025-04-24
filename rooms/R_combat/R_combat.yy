@@ -88,8 +88,8 @@
   ],
   "name":"R_combat",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"pieces_particulieres",
+    "path":"folders/Rooms/pieces_particulieres.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
