@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"T_sol_port",
+  "%Name":"T_cocotier",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"T_sol_port",
-  "out_columns":10,
+  "name":"T_cocotier",
+  "out_columns":9,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"S_tile_set_sol_port",
-    "path":"sprites/S_tile_set_sol_port/S_tile_set_sol_port.yy",
+    "name":"S_tile_set_cocotier",
+    "path":"sprites/S_tile_set_cocotier/S_tile_set_cocotier.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":64,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":104,
+  "tile_count":84,
 }

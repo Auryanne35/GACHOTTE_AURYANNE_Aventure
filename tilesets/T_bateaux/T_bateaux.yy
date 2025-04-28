@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet6",
+  "%Name":"T_bateaux",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet6",
+  "name":"T_bateaux",
   "out_columns":12,
   "out_tilehborder":2,
   "out_tilevborder":2,
