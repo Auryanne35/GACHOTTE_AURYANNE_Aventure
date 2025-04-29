@@ -7,6 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_generateur_parent","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"propertyId":{"name":"monstre","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"resource":{"name":"O_crabe","path":"objects/O_crabe/O_crabe.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_crabe",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_generateur_parent","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"propertyId":{"name":"temps_apparition","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_generateur_parent","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"propertyId":{"name":"nb_max","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
     "name":"ennemis",

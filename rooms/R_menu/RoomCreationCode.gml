@@ -1,0 +1,1 @@
+global.room_actuelle = "R_maison_joueur";

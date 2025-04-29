@@ -148,18 +148,17 @@ if(O_manager_barre.pistolet_equipe == true){	/// @DnDAction : YoYo Games.Commo
 		/// @DnDArgument : "var" "degats"
 		/// @DnDArgument : "var_1" "temps_recharge"
 		degats = 4;
-		temps_recharge = 30;}
+		temps_recharge = 30;}}
 
-	/// @DnDAction : YoYo Games.Common.Else
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 7D03A6C7
+else{	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 513323F0
-	/// @DnDParent : 6B34396E
-	else{	/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 723F1F05
-		/// @DnDInput : 2
-		/// @DnDParent : 513323F0
-		/// @DnDArgument : "var" "degats"
-		/// @DnDArgument : "var_1" "temps_recharge"
-		degats = 0;
-		temps_recharge = 0;}}
+	/// @DnDHash : 0AB36C2A
+	/// @DnDInput : 2
+	/// @DnDParent : 7D03A6C7
+	/// @DnDArgument : "var" "degats"
+	/// @DnDArgument : "var_1" "temps_recharge"
+	degats = 0;
+	temps_recharge = 0;}

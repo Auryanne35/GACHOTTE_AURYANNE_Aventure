@@ -1,3 +1,16 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7C53F1BE
+/// @DnDArgument : "expr" "room_get_name(room)"
+/// @DnDArgument : "var" "global.room_actuelle"
+global.room_actuelle = room_get_name(room);
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 6B3B47D4
+/// @DnDArgument : "msg" "global.room_actuelle"
+show_debug_message(string(global.room_actuelle));
+
 /// @DnDAction : YoYo Games.Gamepad.Get_Gamepad_Device_Count
 /// @DnDVersion : 1
 /// @DnDHash : 76B6C544

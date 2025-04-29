@@ -1,13 +1,13 @@
-var detection = collision_rectangle(x-distance_detection,y+distance_detection,x+distance_detection_large,y-distance_detection_large,[O_joueur],0,0)
+var detection = collision_rectangle(x-distance_detection*64,y+distance_detection*64,x+distance_detection_large*64,y-distance_detection_large*64,[O_joueur],0,0)
 var p_direction = point_direction(x, y, O_joueur.x,O_joueur.y)
 var coll = instance_place(x+dirX*64, y+dirY*64,[O_collision])
 //var coll = collision_rectangle(x-64,y-64,x+128,y+128,[O_collision],0,0)
-var attaque_possible_gauche = collision_rectangle(x-distance_attaque,y,x,y+distance_attaque,[O_joueur],0,0)
-var attaque_possible_droite = collision_rectangle(x+distance_attaque,y,x+distance_detection_large,y+distance_attaque,[O_joueur],0,0)
-var attaque_possible_haut = collision_rectangle(x,y-distance_attaque,x+distance_attaque,y,[O_joueur],0,0)
-var attaque_possible_bas = collision_rectangle(x,y-distance_attaque,x+distance_attaque,y-distance_detection_large,[O_joueur],0,0)
+var attaque_possible_gauche = collision_rectangle(x-distance_attaque*64,y,x,y+distance_attaque*64,[O_joueur],0,0)
+var attaque_possible_droite = collision_rectangle(x+distance_attaque*64,y,x+distance_attaque_large*64,y+distance_attaque*64,[O_joueur],0,0)
+var attaque_possible_haut = collision_rectangle(x,y-distance_attaque*64,x+distance_attaque*64,y,[O_joueur],0,0)
+var attaque_possible_bas = collision_rectangle(x,y-distance_attaque*64,x+distance_attaque*64,y-distance_attaque_large*64,[O_joueur],0,0)
 var distance = point_distance(x,y,O_joueur.x,O_joueur.y)
-var collision = collision_rectangle(x,y,x+sprite_get_width(self.sprite_index),y+sprite_get_height(self.sprite_index),O_interraction_joueur,0,0); //collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
+//var collision = collision_rectangle(x,y,x+sprite_get_width(self.sprite_index),y+sprite_get_height(self.sprite_index),O_interraction_joueur,0,0); //collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
 if (detection){
 	// Déplacement
 	if (not attaque_possible_droite and not attaque_possible_bas and not attaque_possible_gauche and not attaque_possible_haut){
@@ -71,22 +71,22 @@ if (detection){
 	if (attaque_possible_bas){
 		script_execute(SC_Reduction_vie,degats,invincibilite)
 	}
-	if (attaque_possible_droite){
+	else if (attaque_possible_droite){
 		script_execute(SC_Reduction_vie,degats,invincibilite)
 	}
-	if (attaque_possible_haut){
+	else if (attaque_possible_haut){
 		script_execute(SC_Reduction_vie,degats,invincibilite)
 	}
-	if (attaque_possible_gauche){
+	else if (attaque_possible_gauche){
 		script_execute(SC_Reduction_vie,degats,invincibilite)
 	}
 	// interraction pour que le joueur frappe
-	if(collision){
+	/*if(collision){
 		var appui = keyboard_check_pressed(vk_space);
 		if (appui){
 			event_user(0);
 		}
-	}
+	}*/
 }
 if (vie <= 0 and vie > -5){
 	instance_create_layer(x,y,"collectibles",butin);

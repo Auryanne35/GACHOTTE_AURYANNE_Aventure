@@ -1,5 +1,4 @@
-var collision = instance_place(0, 0, [noone]);
-if ((collision > 0))
-{
-
+var appui = keyboard_check_pressed(vk_space);
+if (appui){
+	event_user(0);
 }

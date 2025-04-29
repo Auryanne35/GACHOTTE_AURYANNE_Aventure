@@ -3,10 +3,9 @@
 /// @DnDHash : 28D8796E
 /// @DnDComment : 
 /// @DnDArgument : "funcName" "SC_jouer"
-function SC_jouer() {	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+function SC_jouer() {	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 11C139AE
+	/// @DnDHash : 1B64739A
 	/// @DnDParent : 28D8796E
-	/// @DnDArgument : "room" "R_maison_joueur"
-	/// @DnDSaveInfo : "room" "R_maison_joueur"
-	room_goto(R_maison_joueur);}
+	/// @DnDArgument : "code" "room_goto(asset_get_index(global.room_actuelle));"
+	room_goto(asset_get_index(global.room_actuelle));}

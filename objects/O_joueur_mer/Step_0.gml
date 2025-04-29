@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 26054526
+/// @DnDArgument : "expr" "room_get_name(room)"
+/// @DnDArgument : "var" "global.room_actuelle"
+global.room_actuelle = room_get_name(room);
+
 /// @DnDAction : YoYo Games.Gamepad.Get_Gamepad_Device_Count
 /// @DnDVersion : 1
 /// @DnDHash : 76B6C544

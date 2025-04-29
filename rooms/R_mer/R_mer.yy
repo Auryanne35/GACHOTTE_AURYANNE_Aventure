@@ -24,6 +24,7 @@
     {"name":"inst_2A08F5CF","path":"rooms/R_mer/R_mer.yy",},
     {"name":"inst_59DB4CA8","path":"rooms/R_mer/R_mer.yy",},
     {"name":"inst_71418817","path":"rooms/R_mer/R_mer.yy",},
+    {"name":"inst_623E06E3","path":"rooms/R_mer/R_mer.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -55,6 +56,9 @@
         {"$GMRInstance":"v1","%Name":"inst_2A08F5CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A08F5CF","objectId":{"name":"O_teleporteur","path":"objects/O_teleporteur/O_teleporteur.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_teleporteur","path":"objects/O_teleporteur/O_teleporteur.yy",},"propertyId":{"name":"aller_boutique","path":"objects/O_teleporteur/O_teleporteur.yy",},"resource":{"name":"R_port","path":"rooms/R_port/R_port.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_port",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":512.0,},
+        {"$GMRInstance":"v1","%Name":"inst_623E06E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_623E06E3","objectId":{"name":"O_teleporteur","path":"objects/O_teleporteur/O_teleporteur.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_teleporteur","path":"objects/O_teleporteur/O_teleporteur.yy",},"propertyId":{"name":"aller_boutique","path":"objects/O_teleporteur/O_teleporteur.yy",},"resource":{"name":"R_ile_1","path":"rooms/R_ile_1/R_ile_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_ile_1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":384.0,},
       ],"layers":[],"name":"teleporteurs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"joueur","depth":600,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_19D4ECB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19D4ECB4","objectId":{"name":"O_joueur_mer","path":"objects/O_joueur_mer/O_joueur_mer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":576.0,},

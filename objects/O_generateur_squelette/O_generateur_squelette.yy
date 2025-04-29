@@ -7,6 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_generateur_parent","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"propertyId":{"name":"monstre","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"resource":{"name":"O_squelette","path":"objects/O_squelette/O_squelette.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_squelette",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_generateur_parent","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"propertyId":{"name":"temps_apparition","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_generateur_parent","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"propertyId":{"name":"nb_max","path":"objects/O_generateur_parent/O_generateur_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
   ],
   "parent":{
     "name":"ennemis",
