@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_kraken_combat",
-    "path":"sprites/S_kraken_combat/S_kraken_combat.yy",
+    "name":"S_tentacule_gauche",
+    "path":"sprites/S_tentacule_gauche/S_tentacule_gauche.yy",
   },
   "spriteMaskId":null,
   "visible":true,

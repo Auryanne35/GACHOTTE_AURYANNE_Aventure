@@ -335,6 +335,8 @@
     {"id":{"name":"S_squelette","path":"sprites/S_squelette/S_squelette.yy",},},
     {"id":{"name":"S_tas_os","path":"sprites/S_tas_os/S_tas_os.yy",},},
     {"id":{"name":"S_tas_pieces","path":"sprites/S_tas_pieces/S_tas_pieces.yy",},},
+    {"id":{"name":"S_tentacule_droite","path":"sprites/S_tentacule_droite/S_tentacule_droite.yy",},},
+    {"id":{"name":"S_tentacule_gauche","path":"sprites/S_tentacule_gauche/S_tentacule_gauche.yy",},},
     {"id":{"name":"S_text","path":"sprites/S_text/S_text.yy",},},
     {"id":{"name":"S_tile_port_animation","path":"sprites/S_tile_port_animation/S_tile_port_animation.yy",},},
     {"id":{"name":"S_tile_port","path":"sprites/S_tile_port/S_tile_port.yy",},},

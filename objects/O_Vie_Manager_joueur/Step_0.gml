@@ -5,7 +5,12 @@
 /// @DnDArgument : "op" "1"
 if(global.vie_joueur < 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 578F17FD
+	/// @DnDHash : 5809E649
+	/// @DnDInput : 2
 	/// @DnDParent : 1520222F
-	/// @DnDArgument : "var" "global.vie_joueur"
-	global.vie_joueur = 0;}
+	/// @DnDArgument : "expr" "O_joueur.x_depart"
+	/// @DnDArgument : "expr_1" "O_joueur.y_depart"
+	/// @DnDArgument : "var" "O_joueur.x"
+	/// @DnDArgument : "var_1" "O_joueur.y_apparition"
+	O_joueur.x = O_joueur.x_depart;
+	O_joueur.y_apparition = O_joueur.y_depart;}
