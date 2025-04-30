@@ -6,25 +6,25 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_15ACBEB0","path":"rooms/R_menu/R_menu.yy",},
-    {"name":"inst_2638228F","path":"rooms/R_menu/R_menu.yy",},
-    {"name":"inst_671A0CD7","path":"rooms/R_menu/R_menu.yy",},
+    {"name":"inst_1F62C909","path":"rooms/R_menu/R_menu.yy",},
+    {"name":"inst_597ADFF2","path":"rooms/R_menu/R_menu.yy",},
+    {"name":"inst_2A1B6697","path":"rooms/R_menu/R_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_15ACBEB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15ACBEB0","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"texte","path":"objects/O_boutton/O_boutton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Jouer",},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_1F62C909","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F62C909","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"script_a_faire","path":"objects/O_boutton/O_boutton.yy",},"resource":{"name":"SC_jouer","path":"scripts/SC_jouer/SC_jouer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SC_jouer",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":1120.0,"y":512.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2638228F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2638228F","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"texte","path":"objects/O_boutton/O_boutton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"option",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"boutton_specifique","path":"objects/O_boutton/O_boutton.yy",},"resource":{"name":"S_boutton_jouer","path":"sprites/S_boutton_jouer/S_boutton_jouer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_boutton_jouer",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
+        {"$GMRInstance":"v1","%Name":"inst_597ADFF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_597ADFF2","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"script_a_faire","path":"objects/O_boutton/O_boutton.yy",},"resource":{"name":"SC_option","path":"scripts/SC_option/SC_option.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SC_option",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":1120.0,"y":640.0,},
-        {"$GMRInstance":"v1","%Name":"inst_671A0CD7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_671A0CD7","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"texte","path":"objects/O_boutton/O_boutton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quitter",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"boutton_specifique","path":"objects/O_boutton/O_boutton.yy",},"resource":{"name":"S_boutton_option","path":"sprites/S_boutton_option/S_boutton_option.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_boutton_option",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":192.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2A1B6697","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A1B6697","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"script_a_faire","path":"objects/O_boutton/O_boutton.yy",},"resource":{"name":"SC_quitter","path":"scripts/SC_quitter/SC_quitter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SC_quitter",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":1120.0,"y":768.0,},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_boutton","path":"objects/O_boutton/O_boutton.yy",},"propertyId":{"name":"boutton_specifique","path":"objects/O_boutton/O_boutton.yy",},"resource":{"name":"S_boutton_quitter","path":"sprites/S_boutton_quitter/S_boutton_quitter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_boutton_quitter",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -44,14 +44,14 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":1080,
+    "Height":540,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1920,
+    "Width":960,
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":1080,"hspeed":-1,"hview":1080,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1920,"wview":1920,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":1080,"hspeed":-1,"hview":540,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1920,"wview":960,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

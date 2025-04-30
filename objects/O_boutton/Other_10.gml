@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Color_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 158BE204
-/// @DnDArgument : "colour" "merge_color(image_blend,couleur_boutton,0.05)"
-/// @DnDArgument : "alpha" "false"
-image_blend = merge_color(image_blend,couleur_boutton,0.05) & $ffffff;
+if (image_index == 4.5){
+	image_speed = 0;
+}
+else{
+	image_speed = 2;
+}
