@@ -1,15 +1,9 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 43ED1412
-image_speed = 1;
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 6A945A1D
-/// @DnDArgument : "expr" "-1"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "global.vie_joueur"
-global.vie_joueur += -1;
+/// @DnDHash : 060E8AFC
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "attaque_tentacule"
+attaque_tentacule = true;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
