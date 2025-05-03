@@ -4,7 +4,18 @@
 /// @DnDArgument : "var" "global.or_collecte"
 /// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "3"
-if(global.or_collecte >= 3){	/// @DnDAction : YoYo Games.Common.Variable
+if(global.or_collecte >= 3){	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 75D6DFA2
+	/// @DnDInput : 2
+	/// @DnDParent : 6E3D611E
+	/// @DnDArgument : "script" "SC_discussion"
+	/// @DnDArgument : "arg" ""Les noix de coco sont toutes rondes et toutes mignonnes, et en plus elle me permettent de me soigner un peu.""
+	/// @DnDArgument : "arg_1" "240"
+	/// @DnDSaveInfo : "script" "SC_discussion"
+	script_execute(SC_discussion, "Les noix de coco sont toutes rondes et toutes mignonnes, et en plus elle me permettent de me soigner un peu.", 240);
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 45114E8E
 	/// @DnDInput : 2

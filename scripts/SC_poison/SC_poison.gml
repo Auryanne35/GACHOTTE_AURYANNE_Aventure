@@ -8,16 +8,16 @@ function SC_poison(temps_poison) {	/// @DnDAction : YoYo Games.Common.If_Varia
 	/// @DnDVersion : 1
 	/// @DnDHash : 0CB380EB
 	/// @DnDParent : 493F08A5
-	/// @DnDArgument : "var" "O_Vie_Manager.poison"
+	/// @DnDArgument : "var" "O_manager_ui.poison"
 	/// @DnDArgument : "value" "false"
-	if(O_Vie_Manager_joueur.poison == false){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	if(O_manager_ui.poison == false){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 3C86582F
-		/// @DnDApplyTo : {O_Vie_Manager}
+		/// @DnDApplyTo : {O_manager_ui}
 		/// @DnDParent : 0CB380EB
 		/// @DnDArgument : "steps" "60"
 		/// @DnDArgument : "alarm" "1"
-		with(O_Vie_Manager_joueur) {
+		with(O_manager_ui) {
 		alarm_set(1, 60);
 		
 		}
@@ -27,20 +27,20 @@ function SC_poison(temps_poison) {	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDHash : 674E5288
 		/// @DnDParent : 0CB380EB
 		/// @DnDArgument : "expr" "temps_poison"
-		/// @DnDArgument : "var" "O_Vie_Manager.max_compteur"
-		O_Vie_Manager_joueur.max_compteur = temps_poison;
+		/// @DnDArgument : "var" "O_manager_ui.max_compteur"
+		O_manager_ui.max_compteur = temps_poison;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 346E03B0
 		/// @DnDParent : 0CB380EB
 		/// @DnDArgument : "expr" "true"
-		/// @DnDArgument : "var" "O_Vie_Manager.poison"
-		O_Vie_Manager_joueur.poison = true;
+		/// @DnDArgument : "var" "O_manager_ui.poison"
+		O_manager_ui.poison = true;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 30D4DD36
 		/// @DnDParent : 0CB380EB
-		/// @DnDArgument : "var" "O_Vie_Manager.compteur"
-		O_Vie_Manager_joueur.compteur = 0;}}
+		/// @DnDArgument : "var" "O_manager_ui.compteur"
+		O_manager_ui.compteur = 0;}}

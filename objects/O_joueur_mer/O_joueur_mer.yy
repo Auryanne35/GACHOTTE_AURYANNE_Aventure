@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_bateau_gauche",
-    "path":"sprites/S_bateau_gauche/S_bateau_gauche.yy",
+    "name":"S_bateau_droit",
+    "path":"sprites/S_bateau_droit/S_bateau_droit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

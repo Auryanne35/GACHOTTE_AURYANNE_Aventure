@@ -24,17 +24,13 @@ var l6809151C_0 = collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
 	/// @DnDVersion : 1
 	/// @DnDHash : 717696FF
 	/// @DnDParent : 6809151C
-	else{	/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 301DB932
+	else{	/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 5AE388C9
+		/// @DnDInput : 2
 		/// @DnDParent : 717696FF
-		/// @DnDArgument : "expr" "true"
-		/// @DnDArgument : "var" "affichage"
-		affichage = true;
-	
-		/// @DnDAction : YoYo Games.Instances.Set_Alarm
-		/// @DnDVersion : 1
-		/// @DnDHash : 3D6F36DD
-		/// @DnDParent : 717696FF
-		/// @DnDArgument : "steps" "120"
-		alarm_set(0, 120);}}
+		/// @DnDArgument : "script" "SC_discussion"
+		/// @DnDArgument : "arg" ""Je n'ai pas mon épée, partir à l'aventure sans elle n'est pas une bonne idée""
+		/// @DnDArgument : "arg_1" "210"
+		/// @DnDSaveInfo : "script" "SC_discussion"
+		script_execute(SC_discussion, "Je n'ai pas mon épée, partir à l'aventure sans elle n'est pas une bonne idée", 210);}}

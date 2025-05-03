@@ -10,9 +10,9 @@ function SC_Reduction_vie(perte, temps_invincible) {	/// @DnDAction : YoYo Gam
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A9FC55C
 	/// @DnDParent : 529BB90F
-	/// @DnDArgument : "var" "O_Vie_Manager_joueur.invincible"
+	/// @DnDArgument : "var" "O_manager_ui.invincible"
 	/// @DnDArgument : "value" "false"
-	if(O_Vie_Manager_joueur.invincible == false){	/// @DnDAction : YoYo Games.Common.Variable
+	if(O_manager_ui.invincible == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 6FF45F7E
 		/// @DnDInput : 2
@@ -21,17 +21,17 @@ function SC_Reduction_vie(perte, temps_invincible) {	/// @DnDAction : YoYo Gam
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
 		/// @DnDArgument : "var" "global.vie_joueur"
-		/// @DnDArgument : "var_1" "O_Vie_Manager_joueur.invincible"
+		/// @DnDArgument : "var_1" "O_manager_ui.invincible"
 		global.vie_joueur += -perte;
-		O_Vie_Manager_joueur.invincible = true;
+		O_manager_ui.invincible = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 1B3848E3
-		/// @DnDApplyTo : {O_Vie_Manager_joueur}
+		/// @DnDApplyTo : {O_manager_ui}
 		/// @DnDParent : 5A9FC55C
 		/// @DnDArgument : "steps" "temps_invincible"
-		with(O_Vie_Manager_joueur) {
+		with(O_manager_ui) {
 		alarm_set(0, temps_invincible);
 		
 		}}}

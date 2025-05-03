@@ -60,3 +60,13 @@ if(global.collier_collecte > 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 4FFD55E2
 	/// @DnDArgument : "var" "global.collier_collecte"
 	global.collier_collecte = 0;}
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 32408931
+/// @DnDInput : 2
+/// @DnDArgument : "script" "SC_discussion"
+/// @DnDArgument : "arg" ""La vente de bijoux est pratique pour s'enrichir.""
+/// @DnDArgument : "arg_1" "210"
+/// @DnDSaveInfo : "script" "SC_discussion"
+script_execute(SC_discussion, "La vente de bijoux est pratique pour s'enrichir.", 210);

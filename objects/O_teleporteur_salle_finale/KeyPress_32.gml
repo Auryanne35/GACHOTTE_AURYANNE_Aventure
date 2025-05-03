@@ -24,7 +24,18 @@ var l550FBBC1_0 = collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
 	/// @DnDVersion : 1
 	/// @DnDHash : 14FBA656
 	/// @DnDParent : 550FBBC1
-	else{	/// @DnDAction : YoYo Games.Common.Variable
+	else{	/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 39E2BC02
+		/// @DnDInput : 2
+		/// @DnDParent : 14FBA656
+		/// @DnDArgument : "script" "SC_discussion"
+		/// @DnDArgument : "arg" ""Il est marqué qu'il me faut 9 yrux de Kraken pour ouvrir la porte, il faudrait repartir en mer pour abattre quelques uns de ces monstres""
+		/// @DnDArgument : "arg_1" "300"
+		/// @DnDSaveInfo : "script" "SC_discussion"
+		script_execute(SC_discussion, "Il est marqué qu'il me faut 9 yrux de Kraken pour ouvrir la porte, il faudrait repartir en mer pour abattre quelques uns de ces monstres", 300);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 006D9537
 		/// @DnDParent : 14FBA656

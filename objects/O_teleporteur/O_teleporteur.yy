@@ -9,10 +9,13 @@
   "name":"O_teleporteur",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"teleportation",
+    "path":"folders/Objects/teleportation.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_manager_teleporteur",
+    "path":"objects/O_manager_teleporteur/O_manager_teleporteur.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

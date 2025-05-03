@@ -15,7 +15,18 @@ if(global.epee_collectee == true){	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDArgument : "var" "global.os_collecte"
 		/// @DnDArgument : "op" "4"
 		/// @DnDArgument : "value" "20"
-		if(global.os_collecte >= 20){	/// @DnDAction : YoYo Games.Common.Variable
+		if(global.os_collecte >= 20){	/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 60A025F8
+			/// @DnDInput : 2
+			/// @DnDParent : 4667629F
+			/// @DnDArgument : "script" "SC_discussion"
+			/// @DnDArgument : "arg" ""Mon épée est améliorée, elle fera plus mal et elle est plus belle.""
+			/// @DnDArgument : "arg_1" "240"
+			/// @DnDSaveInfo : "script" "SC_discussion"
+			script_execute(SC_discussion, "Mon épée est améliorée, elle fera plus mal et elle est plus belle.", 240);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 62173B2E
 			/// @DnDParent : 4667629F
@@ -66,7 +77,18 @@ if(global.epee_collectee == true){	/// @DnDAction : YoYo Games.Common.If_Varia
 			/// @DnDArgument : "var" "global.os_collecte"
 			/// @DnDArgument : "op" "4"
 			/// @DnDArgument : "value" "25"
-			if(global.os_collecte >= 25){	/// @DnDAction : YoYo Games.Common.Variable
+			if(global.os_collecte >= 25){	/// @DnDAction : YoYo Games.Common.Execute_Script
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 50547C16
+				/// @DnDInput : 2
+				/// @DnDParent : 26532457
+				/// @DnDArgument : "script" "SC_discussion"
+				/// @DnDArgument : "arg" ""Mon épée est améliorée, elle fera plus mal et elle est plus belle.""
+				/// @DnDArgument : "arg_1" "240"
+				/// @DnDSaveInfo : "script" "SC_discussion"
+				script_execute(SC_discussion, "Mon épée est améliorée, elle fera plus mal et elle est plus belle.", 240);
+			
+				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 6045587F
 				/// @DnDParent : 26532457
@@ -117,7 +139,18 @@ if(global.epee_collectee == true){	/// @DnDAction : YoYo Games.Common.If_Varia
 				/// @DnDArgument : "var" "global.os_collecte"
 				/// @DnDArgument : "op" "4"
 				/// @DnDArgument : "value" "30"
-				if(global.os_collecte >= 30){	/// @DnDAction : YoYo Games.Common.Variable
+				if(global.os_collecte >= 30){	/// @DnDAction : YoYo Games.Common.Execute_Script
+					/// @DnDVersion : 1.1
+					/// @DnDHash : 1D451A3B
+					/// @DnDInput : 2
+					/// @DnDParent : 7D6E17E2
+					/// @DnDArgument : "script" "SC_discussion"
+					/// @DnDArgument : "arg" ""Mon épée est améliorée au maximum, elle fera mal aux monstres et je la trouve magnifique. Le style, c'est important haha.""
+					/// @DnDArgument : "arg_1" "240"
+					/// @DnDSaveInfo : "script" "SC_discussion"
+					script_execute(SC_discussion, "Mon épée est améliorée au maximum, elle fera mal aux monstres et je la trouve magnifique. Le style, c'est important haha.", 240);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 56539FF8
 					/// @DnDParent : 7D6E17E2

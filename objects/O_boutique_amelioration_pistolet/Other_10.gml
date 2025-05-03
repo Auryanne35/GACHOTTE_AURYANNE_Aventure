@@ -15,7 +15,18 @@ if(global.pistolet_collecte == true){	/// @DnDAction : YoYo Games.Common.If_Va
 		/// @DnDArgument : "var" "global.os_collecte"
 		/// @DnDArgument : "op" "4"
 		/// @DnDArgument : "value" "20"
-		if(global.os_collecte >= 20){	/// @DnDAction : YoYo Games.Common.Variable
+		if(global.os_collecte >= 20){	/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 6E458617
+			/// @DnDInput : 2
+			/// @DnDParent : 3446B0A0
+			/// @DnDArgument : "script" "SC_discussion"
+			/// @DnDArgument : "arg" ""Mon pistolet est meilleur, les dégâts des balles sont beaucoup mieux.""
+			/// @DnDArgument : "arg_1" "210"
+			/// @DnDSaveInfo : "script" "SC_discussion"
+			script_execute(SC_discussion, "Mon pistolet est meilleur, les dégâts des balles sont beaucoup mieux.", 210);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 36018DBA
 			/// @DnDParent : 3446B0A0
@@ -49,7 +60,18 @@ if(global.pistolet_collecte == true){	/// @DnDAction : YoYo Games.Common.If_Va
 			/// @DnDArgument : "var" "global.os_collecte"
 			/// @DnDArgument : "op" "4"
 			/// @DnDArgument : "value" "25"
-			if(global.os_collecte >= 25){	/// @DnDAction : YoYo Games.Common.Variable
+			if(global.os_collecte >= 25){	/// @DnDAction : YoYo Games.Common.Execute_Script
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 48BD41D4
+				/// @DnDInput : 2
+				/// @DnDParent : 2FA407C4
+				/// @DnDArgument : "script" "SC_discussion"
+				/// @DnDArgument : "arg" ""Mon pistolet est amélioré au maximum, il brille de mille feu.""
+				/// @DnDArgument : "arg_1" "210"
+				/// @DnDSaveInfo : "script" "SC_discussion"
+				script_execute(SC_discussion, "Mon pistolet est amélioré au maximum, il brille de mille feu.", 210);
+			
+				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 3E357C1A
 				/// @DnDParent : 2FA407C4

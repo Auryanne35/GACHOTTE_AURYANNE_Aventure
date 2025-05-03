@@ -11,8 +11,8 @@
   "name":"O_caisse_boulet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"combat_kraken",
+    "path":"folders/Objects/combat_kraken.yy",
   },
   "parentObjectId":null,
   "persistent":false,
