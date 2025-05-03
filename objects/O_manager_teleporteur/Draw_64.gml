@@ -9,6 +9,6 @@ if(collision == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDParent : 23D1EF54
 	/// @DnDArgument : "x" "10"
 	/// @DnDArgument : "y" "1000"
-	/// @DnDArgument : "sprite" "S_text"
-	/// @DnDSaveInfo : "sprite" "S_text"
-	draw_sprite(S_text, 0, 10, 1000);}
+	/// @DnDArgument : "sprite" "S_touche_espace_jeu"
+	/// @DnDSaveInfo : "sprite" "S_touche_espace_jeu"
+	draw_sprite(S_touche_espace_jeu, 0, 10, 1000);}

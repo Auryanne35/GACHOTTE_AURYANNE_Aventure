@@ -13,3 +13,4 @@ global.amelioration_pistolet = 0;
 global.amelioration_epee = 0;
 global.carte_achete = false;
 global.room_actuelle = room_get_name(room);
+global.premiere_noix_coco = false;

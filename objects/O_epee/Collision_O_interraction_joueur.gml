@@ -25,3 +25,10 @@ var l29C8C653_0;l29C8C653_0 = keyboard_check_pressed(vk_space);if (l29C8C653_0
 	/// @DnDHash : 439D504D
 	/// @DnDParent : 29C8C653
 	instance_destroy();}
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 07B1A868
+/// @DnDArgument : "script" "SC_affiche_touche"
+/// @DnDSaveInfo : "script" "SC_affiche_touche"
+script_execute(SC_affiche_touche);

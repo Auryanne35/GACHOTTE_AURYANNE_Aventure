@@ -74,91 +74,96 @@ if(O_manager_barre.epee_equipee == true){	/// @DnDAction : YoYo Games.Common.I
 		degats = 6;
 		temps_recharge = 30;}}
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 6B34396E
-/// @DnDArgument : "var" "O_manager_barre.pistolet_equipe"
-/// @DnDArgument : "value" "true"
-if(O_manager_barre.pistolet_equipe == true){	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 139050AB
-	/// @DnDParent : 6B34396E
-	/// @DnDArgument : "var" "global.amelioration_pistolet"
-	if(global.amelioration_pistolet == 0){	/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 51D6F54A
-		/// @DnDInput : 2
-		/// @DnDParent : 139050AB
-		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "expr_1" "30"
-		/// @DnDArgument : "var" "degats"
-		/// @DnDArgument : "var_1" "temps_recharge"
-		degats = 1;
-		temps_recharge = 30;}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0ECF12C3
-	/// @DnDParent : 6B34396E
-	/// @DnDArgument : "var" "global.amelioration_pistolet"
-	/// @DnDArgument : "value" "1"
-	if(global.amelioration_pistolet == 1){	/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 55F04857
-		/// @DnDInput : 2
-		/// @DnDParent : 0ECF12C3
-		/// @DnDArgument : "expr" "2"
-		/// @DnDArgument : "expr_1" "30"
-		/// @DnDArgument : "var" "degats"
-		/// @DnDArgument : "var_1" "temps_recharge"
-		degats = 2;
-		temps_recharge = 30;}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 4A513BD8
-	/// @DnDParent : 6B34396E
-	/// @DnDArgument : "var" "global.amelioration_pistolet"
-	/// @DnDArgument : "value" "2"
-	if(global.amelioration_pistolet == 2){	/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 71905A6C
-		/// @DnDInput : 2
-		/// @DnDParent : 4A513BD8
-		/// @DnDArgument : "expr" "3"
-		/// @DnDArgument : "expr_1" "30"
-		/// @DnDArgument : "var" "degats"
-		/// @DnDArgument : "var_1" "temps_recharge"
-		degats = 3;
-		temps_recharge = 30;}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 463649DC
-	/// @DnDParent : 6B34396E
-	/// @DnDArgument : "var" "global.amelioration_pistolet"
-	/// @DnDArgument : "value" "3"
-	if(global.amelioration_pistolet == 3){	/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 0F6877F0
-		/// @DnDInput : 2
-		/// @DnDParent : 463649DC
-		/// @DnDArgument : "expr" "4"
-		/// @DnDArgument : "expr_1" "30"
-		/// @DnDArgument : "var" "degats"
-		/// @DnDArgument : "var_1" "temps_recharge"
-		degats = 4;
-		temps_recharge = 30;}}
-
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
-/// @DnDHash : 7D03A6C7
-else{	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDHash : 40346C3E
+else{	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 0AB36C2A
-	/// @DnDInput : 2
-	/// @DnDParent : 7D03A6C7
-	/// @DnDArgument : "var" "degats"
-	/// @DnDArgument : "var_1" "temps_recharge"
-	degats = 0;
-	temps_recharge = 0;}
+	/// @DnDHash : 6B34396E
+	/// @DnDParent : 40346C3E
+	/// @DnDArgument : "var" "O_manager_barre.pistolet_equipe"
+	/// @DnDArgument : "value" "true"
+	if(O_manager_barre.pistolet_equipe == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 139050AB
+		/// @DnDParent : 6B34396E
+		/// @DnDArgument : "var" "global.amelioration_pistolet"
+		if(global.amelioration_pistolet == 0){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 51D6F54A
+			/// @DnDInput : 2
+			/// @DnDParent : 139050AB
+			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr_1" "30"
+			/// @DnDArgument : "var" "degats"
+			/// @DnDArgument : "var_1" "temps_recharge"
+			degats = 1;
+			temps_recharge = 30;}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0ECF12C3
+		/// @DnDParent : 6B34396E
+		/// @DnDArgument : "var" "global.amelioration_pistolet"
+		/// @DnDArgument : "value" "1"
+		if(global.amelioration_pistolet == 1){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 55F04857
+			/// @DnDInput : 2
+			/// @DnDParent : 0ECF12C3
+			/// @DnDArgument : "expr" "2"
+			/// @DnDArgument : "expr_1" "30"
+			/// @DnDArgument : "var" "degats"
+			/// @DnDArgument : "var_1" "temps_recharge"
+			degats = 2;
+			temps_recharge = 30;}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4A513BD8
+		/// @DnDParent : 6B34396E
+		/// @DnDArgument : "var" "global.amelioration_pistolet"
+		/// @DnDArgument : "value" "2"
+		if(global.amelioration_pistolet == 2){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 71905A6C
+			/// @DnDInput : 2
+			/// @DnDParent : 4A513BD8
+			/// @DnDArgument : "expr" "3"
+			/// @DnDArgument : "expr_1" "30"
+			/// @DnDArgument : "var" "degats"
+			/// @DnDArgument : "var_1" "temps_recharge"
+			degats = 3;
+			temps_recharge = 30;}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 463649DC
+		/// @DnDParent : 6B34396E
+		/// @DnDArgument : "var" "global.amelioration_pistolet"
+		/// @DnDArgument : "value" "3"
+		if(global.amelioration_pistolet == 3){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 0F6877F0
+			/// @DnDInput : 2
+			/// @DnDParent : 463649DC
+			/// @DnDArgument : "expr" "4"
+			/// @DnDArgument : "expr_1" "30"
+			/// @DnDArgument : "var" "degats"
+			/// @DnDArgument : "var_1" "temps_recharge"
+			degats = 4;
+			temps_recharge = 30;}}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 7D03A6C7
+	/// @DnDParent : 40346C3E
+	else{	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0AB36C2A
+		/// @DnDInput : 2
+		/// @DnDParent : 7D03A6C7
+		/// @DnDArgument : "var" "degats"
+		/// @DnDArgument : "var_1" "temps_recharge"
+		degats = 0;
+		temps_recharge = 0;}}

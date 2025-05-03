@@ -34,5 +34,5 @@
     "path":"sprites/S_interraction_joueur/S_interraction_joueur.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

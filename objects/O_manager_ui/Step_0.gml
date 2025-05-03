@@ -17,3 +17,10 @@ if(global.vie_joueur <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 	O_joueur.x = O_joueur.xstart;
 	O_joueur.y_apparition = O_joueur.ystart;
 	global.vie_joueur = 5;}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1CD7D3B9
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "affichage_touche"
+affichage_touche = false;

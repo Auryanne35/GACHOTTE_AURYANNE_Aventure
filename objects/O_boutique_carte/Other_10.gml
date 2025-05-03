@@ -50,7 +50,7 @@ else{	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDInput : 2
 	/// @DnDParent : 6A96F05D
 	/// @DnDArgument : "script" "SC_discussion"
-	/// @DnDArgument : "arg" ""Je n'ai pas l'argent pour acheter cette carte, mais il me la faut, avec cette dernière je pourrais aller plus loin dans la mer et aller sur l'île de légende.""
+	/// @DnDArgument : "arg" ""Je n'ai pas l'argent pour acheter cette carte, mais il me la faut, avec cette dernière je pourrais aller plus loin dans la mer.""
 	/// @DnDArgument : "arg_1" "300"
 	/// @DnDSaveInfo : "script" "SC_discussion"
-	script_execute(SC_discussion, "Je n'ai pas l'argent pour acheter cette carte, mais il me la faut, avec cette dernière je pourrais aller plus loin dans la mer et aller sur l'île de légende.", 300);}
+	script_execute(SC_discussion, "Je n'ai pas l'argent pour acheter cette carte, mais il me la faut, avec cette dernière je pourrais aller plus loin dans la mer.", 300);}
