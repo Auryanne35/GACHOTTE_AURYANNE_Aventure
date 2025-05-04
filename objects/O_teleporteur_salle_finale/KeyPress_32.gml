@@ -11,8 +11,8 @@ var l550FBBC1_0 = collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
 	/// @DnDParent : 550FBBC1
 	/// @DnDArgument : "var" "global.oeuil_kraken_collecte"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "9"
-	if(global.oeuil_kraken_collecte >= 9){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDArgument : "value" "3"
+	if(global.oeuil_kraken_collecte >= 3){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 1176EA3A
 		/// @DnDParent : 25D850C0
@@ -30,10 +30,10 @@ var l550FBBC1_0 = collision_point(x + 0, y + 0, O_interraction_joueur, true, 1);
 		/// @DnDInput : 2
 		/// @DnDParent : 14FBA656
 		/// @DnDArgument : "script" "SC_discussion"
-		/// @DnDArgument : "arg" ""Il est marqué qu'il me faut 9 yrux de Kraken pour ouvrir la porte, il faudrait repartir en mer pour abattre quelques uns de ces monstres""
+		/// @DnDArgument : "arg" ""Il est marqué qu'il me faut 3 yrux de Kraken pour ouvrir la porte, il faudrait repartir en mer pour abattre quelques uns de ces monstres""
 		/// @DnDArgument : "arg_1" "300"
 		/// @DnDSaveInfo : "script" "SC_discussion"
-		script_execute(SC_discussion, "Il est marqué qu'il me faut 9 yrux de Kraken pour ouvrir la porte, il faudrait repartir en mer pour abattre quelques uns de ces monstres", 300);
+		script_execute(SC_discussion, "Il est marqué qu'il me faut 3 yrux de Kraken pour ouvrir la porte, il faudrait repartir en mer pour abattre quelques uns de ces monstres", 300);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

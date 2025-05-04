@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_bouttonLancement",
-    "path":"sprites/S_bouttonLancement/S_bouttonLancement.yy",
+    "name":"S_coffre",
+    "path":"sprites/S_coffre/S_coffre.yy",
   },
   "spriteMaskId":null,
   "visible":true,

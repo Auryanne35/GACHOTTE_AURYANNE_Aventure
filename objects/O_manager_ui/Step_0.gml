@@ -12,11 +12,19 @@ if(global.vie_joueur <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr_1" "O_joueur.ystart"
 	/// @DnDArgument : "expr_2" "5"
 	/// @DnDArgument : "var" "O_joueur.x"
-	/// @DnDArgument : "var_1" "O_joueur.y_apparition"
+	/// @DnDArgument : "var_1" "O_joueur.y"
 	/// @DnDArgument : "var_2" "global.vie_joueur"
 	O_joueur.x = O_joueur.xstart;
-	O_joueur.y_apparition = O_joueur.ystart;
-	global.vie_joueur = 5;}
+	O_joueur.y = O_joueur.ystart;
+	global.vie_joueur = 5;
+
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 23E64AF9
+	/// @DnDParent : 27022E8C
+	/// @DnDArgument : "room" "R_mort"
+	/// @DnDSaveInfo : "room" "R_mort"
+	room_goto(R_mort);}
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
