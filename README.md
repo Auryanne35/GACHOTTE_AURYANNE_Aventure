@@ -31,6 +31,8 @@
 - Le pistolet permet de tirer de plus loin
 - L'inventaire n'est pas utilisable dans la mer
 - Les points de vie contre le Kraken et ceux du personnage et pas du bateau
-
+- Penser à équiper l'arme avec entrée pour pouvoir attaquer
+- Le pistolet permet de tirer de plus loin
+- Il est possible de traverser les ennemis, ils mettent des dégâts dans ces cas là
 
 *Petit message à Louis pour le soutenir:* c'est un plaisir de travailler avec toi, prends soin de toi, on a tous hâte de te retrouver. On attends ton retour autant pour que tu nous aides dans le travail que pour le fait de pouvoir simplement parler avec toi. Gros coeur et gros soutiens pour toi.
